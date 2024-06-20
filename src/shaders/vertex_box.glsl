@@ -115,7 +115,7 @@ float wave(vec3 position) {
 
 
 void main() {
-  vec3 coords = normal;
+  vec3 coords = vPosiion - vec3(0,0,0);
   coords.y += uTime;
   vec3 noisePattern = vec3(noise(coords));
   float pattern = wave(noisePattern);

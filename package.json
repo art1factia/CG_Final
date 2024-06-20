@@ -1,10 +1,8 @@
 {
-  "name": "three-boilerplate",
+  "name": "emotions",
   "version": "3.0.1",
-  "description": "Three.js webpack 5 boilerplate using Babel and PostCSS and Gsap.",
+  "description": ".",
   "main": "index.js",
-  "author": "Arya",
-  "license": "MIT",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
